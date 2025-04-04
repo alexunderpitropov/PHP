@@ -23,7 +23,7 @@
         <p>Откройте для себя любимых персонажей из популярных игр</p>
         <div class="gallery">
             <?php
-            $dir = 'имаджес/';  // Папка с изображениями персонажей
+            $dir = 'images/';  // Папка с изображениями персонажей
             $files = scandir($dir);
             if ($files !== false) {
                 foreach ($files as $file) {
